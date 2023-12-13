@@ -1,0 +1,9 @@
+{
+  "CFB/USDT": {
+    "price": 3,        // Initial price of the CFB token
+    "up": 0.15,        // Maximum percentage deviation for selling price (15%)
+    "down": 0.1,       // Maximum percentage deviation for buying price (10%)
+    "buy_limit": 3,    // Maximum allowed buying price ($3)
+    "sell_limit": 3.01 // Minimum allowed selling price ($3 + $0.01)
+  }
+}
